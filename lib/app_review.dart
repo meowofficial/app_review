@@ -137,7 +137,7 @@ class AppReview {
     try {
       return _channel.invokeMethod<String>('requestReview');
     } on dynamic {
-      return openGooglePlay();
+      // return openGooglePlay();
     }
   }
 
